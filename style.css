@@ -1,14 +1,14 @@
-body{
+ body{
  background-repeat: no-repeat;
-    
+
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.774),rgba(0, 0, 0, 0.774)),
     url("imagenes/header-image.png.jpg") ; 
-  
+
     }
 
 
-  
+
 body{ 
  background-color: black;
  }
@@ -16,7 +16,7 @@ body{
  .netfondo{
   width: 850px;
  }
- 
+
   h1{
     color: rgb(255, 255, 255);
  font-family: "Roboto", sans-serif;
@@ -37,7 +37,7 @@ h3,p{
 .obuton{
    margin-top: -950px;
 }
-  
+
   header  {
    background-size: cover;
    background-position: center;
@@ -145,7 +145,7 @@ margin-bottom: 10px;
   border-color: black;
   border-style: solid;
   text-align: left;
-  
+
 }
 .features {
 padding: 50px 12%;
