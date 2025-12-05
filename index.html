@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>  
-       
+
  <div class="header">
      <nav>
        <img src="imagenes/logo netflix compl.png" class="logo" alt="">
     <div>
      <button class="obuton"> sing in</button>
  </div>
- </nav>   
-<div class="header-content">
+ </nav>   <div class="header-content">
     <div class="imagenes"></div>
         <h1>Unlimited movies, TV shows, and more.</h1>
         <h3>Starts at USD 3.99. Cancel anytime.</h3>
@@ -24,22 +23,108 @@
 
             <input type="email" placeholder="Email address" required>
             <button type="submit">Get Started</button>
-
-        </form>
-    </div>
-</div>
-
+     
+         </div>
+ </div>
     <div class="features">
          <div class="row">
-              <div class="text-col">
-                   <h3 class="Trending" >Trending Now</h3>      
-              </div>
-              <div class="img-col">
-                  <img src="imagenes/Netflix estrenos.jpg" alt="">
+              <div class="text-col">                                                              
+              <h3 class="Trending" ></h3>   
+              <h3>tendencias</h3>
+           </div>    
+             
+  <section aria-label="Tendencias ahora" class="trending-section">
+        <h2>Tendencias ahora</h2>
+  <div class="trending-grid" id="trending-grid">
+    <article class="card" aria-label="Contenido 1">
+      <div class="thumb" style="background: linear-gradient(135deg, #2b2b2b, #4a4a4a);"></div>
+      <div class="info">
+        <h3 class="title">Gladiador II</h3>
+        <p class="meta">2024 • Acción, Aventura, Drama</p>
+        
+      </div>
+    </article>
+
+    <article class="card" aria-label="Contenido 2">
+      <div class="thumb" style="background: linear-gradient(135deg, #3a2f2f, #6b4f4f);"></div>
+      <div class="info">
+        <h3 class="title">El caso Eloá</h3>
+        <p class="meta">2024 • Documental, Crimen real</p>
+      </div>
+    </article>
+
+    <article class="card" aria-label="Contenido 3">
+      <div class="thumb" style="background: linear-gradient(135deg, #2e2e2e, #5a5a5a);"></div>
+      <div className="info">
+        <h3 class="title">Dude</h3>
+        <p class="meta">2024 • Comedia, Juvenil</p>
+      </div>
+    </article>
+
+    <article class="card" aria-label="Contenido 4">
+      <div class="thumb" style="background: linear-gradient(135deg, #4a2e2e, #7a4e4e);"></div>
+      <div class="info">
+        <h3 class="title">Happy Gilmore 2</h3>
+        <p class="meta">2025 • Comedia</p>
+      </div>
+    </article>
+
+    <article class="card" aria-label="Contenido 5">
+      <div class="thumb" style="background: linear-gradient(135deg, #2b2b38, #4b4b68);"></div>
+      <div class="info">
+        <h3 class="title">La viuda negra</h3>
+        <p class="meta">2025 • Thriller, Crimen real</p>
+      </div>
+    </article>
+
+    <article class="card" aria-label="Contenido 6">
+      <div class="thumb" style="background: linear-gradient(135deg, #6b2f2f, #8c4f4f);"></div>
+      <div class="info">
+        <h3 class="title">Corazón Delator</h3>
+        <p class="meta">2025 • Drama romántico</p>
+      </div>
+    </article>
+
+    <article class="card" aria-label="Contenido 7">
+      <div class="thumb" style="background: linear-gradient(135deg, #2f2f3a, #6a5a8a);"></div>
+      <div class="info">
+        <h3 class="title">K.O.</h3>
+        <p class="meta">2025 • Acción, Aventura, Drama</p>
+      </div>
+    </article>
+
+    <article class="card" aria-label="Contenido 8">
+      <div class="thumb" style="background: linear-gradient(135deg, #2f2f3a, #4a6e8a);"></div>
+      <div class="info">
+        <h3 class="title">India contra Jolly 3</h3>
+        <p class="meta">2025 • Drama legal</p>
+      </div>
+    </article>            
               </div>
          </div>
     </div>
 </body>
+
+     <h3>Mas motivos para unirte</h3>
+<div class="blue-card gradient">
+  <h4>Disfruta en tu TV</h4>
+  <p>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</p>
+</div>
+
+<div class="blue-card gradient">
+  <h4>Descarga tus series para verlas offline</h4>
+  <p>Guarda tu contenido favorito y siempre tendrás algo para ver.</p>
+</div>
+
+<div class="blue-card gradient">
+  <h4>Disfruta donde quieras</h4>
+  <p>Películas y series ilimitadas en tu teléfono, tablet, laptop y TV.</p>
+</div>
+
+<div class="blue-card gradient">
+  <h4>Crea perfiles para niños</h4>
+  <p>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, gratis con tu membresía.</p>
+</div>
 
     <div class="faq">
        <h2>Frequently Asked Questions</h2>
@@ -120,35 +205,35 @@
             <h4>Questions? Call +1-866-864-5365 (USA) </h4>
             <div class="row">
                  <div class="col">
-                     <a href="#">FAQ</a>
-                     <a href="#">Investor Relations</a>
-                     <a href="#">Help Center </a>
-                     <a href="#">Account </a>
+                     <a href=" https://help.netflix.com/es-es/node/412"> FAQ</a>                  
+                     <a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relations</a>
+                     <a href="https://help.netflix.com/es-es">Help Center </a>
+                     <a href=" https://www.netflix.com/ve-en/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">Account </a>
                  </div>
 
                   <div class="col">
-                     <a href="#">Media Center </a>
-                     <a href="#">Jobs </a>
-                     <a href="#"> Ways to Watch</a>
-                     <a href="#"> Terms of Use</a>
+                     <a href="https://media.netflix.com/es_es/">Media Center </a>
+                     <a href="https://jobs.netflix.com/">Jobs </a>
+                     <a href="https://help.netflix.com/es-es/node/14361"> Ways to Watch</a>
+                     <a href="https://help.netflix.com/legal/termsofuse"> Terms of Use</a>
                  </div>
 
                   <div class="col">
-                     <a href="#">Privacy </a>
+                     <a href="https://help.netflix.com/legal/privacy">Privacy </a>
                      <a href="#"> Cookie Preferences</a>
-                     <a href="#">Corporate Information </a>
+                     <a href="https://help.netflix.com/es-es/node/134094">Corporate Information </a>
                      <a href="#"> Contact Us</a>
                  </div>
 
                  <div class="col">
-                     <a href="#"> Speed Test</a>
-                      <a href="#">Legal Notices </a>
-                     <a href="#"> Only on Netflix</a>
+                     <a href="https://fast.com/es/"> Speed Test</a>
+                      <a href="https://help.netflix.com/legal/notices">Legal Notices </a>
+                     <a href="https://www.netflix.com/ve-en/browse/genre/839338"> Only on Netflix</a>
                  </div>                 
             </div>
-            
+
             <p class="copyright-txt"> Netflix Venezuela </p>
-            
+
        </div>
 
 </html>
