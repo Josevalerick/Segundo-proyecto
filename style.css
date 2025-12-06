@@ -1,17 +1,9 @@
-  body{
- background-repeat: no-repeat;
-
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.774),rgba(0, 0, 0, 0.774)),
-    url("imagenes/header-image.png.jpg") ; 
-
-    }
-
-
-
-body{ 
+ body{ 
  background-color: black;
+ 
  }
+
+
 
  .netfondo{
   width: 850px;
@@ -38,11 +30,13 @@ h3,p{
    margin-top: -950px;
 }
 
-  header  {
+header  {
    background-size: cover;
    background-position: center;
    padding: 10px 8%;
    position: relative;
+   height: 169px;
+   width: 100px;
   }
 
 nav {
@@ -172,15 +166,25 @@ margin-bottom: 10px;
   padding: 12px;
 }
 .card {
-  width: 180px;            
-  display: flex;
+  width: 200px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 10px;
   flex-direction: column;
   background: #111;
   border-radius: 8px;
   overflow: hidden;
   color: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,.25);
+  box-shadow: 0 2px 6px rgba(0,0,0,.25);  
 }
+.card img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+
 .card .thumb {
   height: 240px;
   background: #333;
@@ -199,17 +203,21 @@ margin-bottom: 10px;
 }
 
 .blue-card.gradient {
-  background: linear-gradient(to bottom, rgba(13,45,82,1) 0%, rgba(9,29,60,1) 60%, rgba(3,14,35,1) 100%);
+  background: linear-gradient(to bottom, rgba(13, 45, 82, 0.363) 0%, rgba(9,29,60,1) 60%, rgba(148, 7, 73, 0.521) 100%);
   color: #fff;
   border-radius: 12px;
   padding: 18px 20px;
   margin: 12px 0;
-  border: 1px solid rgba(255,255,255,.08);
-  box-shadow:
-    0 8px 20px rgba(0,0,0,.18),
-    inset 0 0 0 0 rgba(255,255,255,.0);
-  position: relative;
+  position:center;
   overflow: hidden;
+   width: 200px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 10px;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden; 
+ 
 }
 .blue-card.gradient h4 { margin: 0 0 6px; font-size: 1.1rem; }
 .blue-card.gradient p { margin: 0; font-size: 0.95rem; line-height: 1.4; }
